@@ -227,6 +227,10 @@ const Box = styled.article`
       }
     }
   }
+
+  @media screen and (max-width: 576px) {
+    margin-bottom: 10em;
+  }
 `;
 
 // JSX
